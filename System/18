@@ -1,0 +1,5 @@
+#18. Donnez une commande qui permet d’arrêter le service ssh
+systemctl stop ssh
+# OU "~" suivi de 'Ctrl-Z' pour sortir du ssh
+# OU "~&" pour le mettre en background
+# "exit" Pour stopper la connection ssh, la question est pas super claire...

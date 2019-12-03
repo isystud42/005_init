@@ -1,0 +1,2 @@
+#12. Trouvez l’IP qui vous a été assignée par le serveur dhcp
+	ifconfig en0 | grep inet | awk '{print $2}'

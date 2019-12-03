@@ -1,0 +1,4 @@
+#!bin/bash
+USER=<nom de l'user a delete>
+pgrep - u $USER | while read PID; do sudo kill $PID; done;
+sudo userdel $USER

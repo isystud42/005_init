@@ -1,0 +1,13 @@
+#23. Expliquez comment se connecter en tant que ce nouvelle utilisateur. (En session
+graphique et en session ssh)
+
+Pour se connecter en session graphque apres avor ajouté l'user en session graphique,
+on clique sur le bouton power de l'UI et on choisis l'utilisateur actuel. On 
+clique alors sur "Switch user" et on entre le mot de passe de l'user ajouté.
+
+En ce qui concerne la connection ssh a la session, on utilise la formule:
+
+ssh <nom_de_session>@<IP DHCP>
+
+<nom de ssesion> est obtensible sur la session avec la commande who
+et <IP DHCP> est obtensible avec ifconfig

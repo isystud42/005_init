@@ -1,0 +1,2 @@
+#afficher l'adresse MAC de la carte Wifi -> Wifi = en1, adresse mac = ether
+ifconfig en1 | grep ether | awk {'print $2'}

@@ -1,0 +1,5 @@
+#Afficher l'adresse Broadcast de l'interface ethernet -> ethernet = en0
+## Avec Cut
+# ifconfig en0 | grep broadcast | cut -d " " -f 6
+## Avec Awk
+ifconfig en0 | grep broadcast | awk '{print $6}'

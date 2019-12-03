@@ -1,0 +1,2 @@
+#2. Quelle commande permet de renommer votre système ?
+sudo hostname [nouveau_nom]

@@ -1,0 +1,4 @@
+#Récupérez le path complet du fichier dans lequel est écrit l’adresse IP du serveur
+#DNS que vous utilisez
+#On cherche le dossier de configuration systeme du systeme Unix en question, puis resolv.conf. dedans
+cat /etc/resolv.conf

@@ -1,0 +1,3 @@
+#24. Quelle commande permet de lister tout les packages INSTALLÉS sur la machine ?
+sudo dpkg-query -f '${binary:Package}\n' -W 
+## Ou -l au lieu de -W selon les preferences

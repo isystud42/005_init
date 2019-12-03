@@ -1,0 +1,3 @@
+#14. Lancez en background la commande tail -f /var/log/syslog
+tail -f /var/log/syslog &
+#il est possible qu'il soit necessaire de rajouter sudo en fonction des accreditation de l'utilisateur

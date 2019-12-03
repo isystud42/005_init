@@ -1,0 +1,2 @@
+Pour faire pointer intra.42.fr vers une adresse il nous faut les droits d'ecriture dans le /etc/hosts
+(ce qui 'est pas le cas d'un utilisateur normal) et ecrire "46.19.122.85 intra.42.fr" dedans

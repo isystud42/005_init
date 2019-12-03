@@ -1,0 +1,4 @@
+#Identifiez la gateway par défaut dans la table de routage
+#On utilisera netstat -r Pour acceder a la table de routage
+#Et netstat -n Pour convertir afficher les adresses au format numerique (faster af)
+netstat -nr | grep en0 |  awk '/default/{print $2}'

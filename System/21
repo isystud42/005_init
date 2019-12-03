@@ -1,0 +1,4 @@
+#21. Listez tout les utilisateurs réels de la machine
+awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd
+#Les utilisteurs human on des user name a partir de 1000, on s'en sert ici, en verifiant que le troisieme champ
+# est superieur ou egal a 1000. On filtre aussi l'user nobody

@@ -1,0 +1,10 @@
+#Trouver chez quel hébergeur est le site de Slash
+On utilise la commande Unix "whois" avec le nom slash16.org et en regardant les nom de server on avec
+
+Name Server: NS-1236.AWSDNS-26.ORG
+Name Server: NS-144.AWSDNS-18.COM
+Name Server: NS-686.AWSDNS-21.NET
+Name Server: NS-1989.AWSDNS-56.CO.UK
+
+J'ai ensuite tapé AWSDNS sur google et j'ai appris qu'il existait un Amazon Web Service
+C'est l'hebergeur.

@@ -1,0 +1,25 @@
+# la sortie de commande au moment ou j'ai fait l'exo etait:
+
+$> traceroute slash16.org
+
+traceroute: Warning: slash16.org has multiple addresses; using 143.204.222.49
+traceroute to slash16.org (143.204.222.49), 64 hops max, 52 byte packets
+ 1  10.13.254.254 (10.13.254.254)  0.680 ms  0.363 ms  0.378 ms
+ 2  nat-1 (10.60.1.11)  0.140 ms  0.151 ms  0.134 ms
+ 3  dc3 (62.210.35.1)  1.824 ms  1.884 ms  1.322 ms
+ 4  195.154.1.174 (195.154.1.174)  1.077 ms  1.082 ms  1.489 ms
+ 5  a9k1-45x-s44-2.dc3.poneytelecom.eu (195.154.1.104)  1.338 ms  1.164 ms  1.111 ms
+ 6  amazon-th2.par.franceix.net (37.49.236.118)  0.954 ms  1.074 ms  0.912 ms
+ 7  52.93.16.116 (52.93.16.116)  2.558 ms  2.928 ms
+    52.93.16.100 (52.93.16.100)  2.121 ms
+ 8  52.93.16.169 (52.93.16.169)  1.440 ms
+    52.93.16.167 (52.93.16.167)  1.504 ms
+    52.93.16.165 (52.93.16.165)  1.219 ms
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  server-143-204-222-49.cdg3.r.cloudfront.net (143.204.222.49)  1.397 ms  1.260 ms  1.203 ms
+
+## On peut donc en deduire que l'appareil faisant lien entre local et exterieur est le serv NAT-1

@@ -1,0 +1,3 @@
+#Indiquez toutes les adresses IP qui font partie du même sous-réseau que l'interface Ethernet (en0)
+# On utilise l'"Adress Resolution Protocol" -> arp, coupe a en0
+arp | grep en0 | awk '{print $2}'

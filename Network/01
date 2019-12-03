@@ -1,0 +1,3 @@
+ifconfig -l
+#Ou alors, si on veut se faire chier
+#ifconfig -a | grep flags | grep mtu | cut -d ":" -f 1
